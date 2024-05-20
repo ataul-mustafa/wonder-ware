@@ -1,0 +1,158 @@
+[
+    {
+        "id": 11,
+        "name": " 3D LED Colorful Decorative Filament Firework Bar Light Bulb",
+        "noOfBuyers": "1.9K",
+        "price": 600,
+        "category": "decoration",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3WIK8WQ",
+        "images": [
+            "https://m.media-amazon.com/images/I/61vFmdvF1yL._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/51CRC235I9L._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Needle threader tool",
+        "noOfBuyers": "1.3K",
+        "price": 100,
+        "category": "home-maintainance",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3yme7K0",
+        "images": [
+            "https://m.media-amazon.com/images/I/51jLBnsOO6S._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/51aGtp8y6UL._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Heavy Furniture lifter, mover",
+        "noOfBuyers": "1.5K",
+        "price": 400,
+        "category": "home-maintainance",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/4bA4w0o",
+        "images": [
+            "https://m.media-amazon.com/images/I/713qD0KE9UL._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/51LSTW3IfwL._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Gyro bowl (bowl for baby), 360 rotate",
+        "noOfBuyers": "1.8K",
+        "price": 600,
+        "category": "Kids toys",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3WBIxlx",
+        "images": [
+            "https://m.media-amazon.com/images/I/612dY2YWxmL._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/61lQUIiniJL._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/61w+klacL8L._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "JB Weld paste",
+        "noOfBuyers": "1.3K",
+        "price": 100,
+        "category": "home-maintainance",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3QGFsNh",
+        "images": [
+            "https://m.media-amazon.com/images/I/41tcRGNa8TL._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/81VRSk73UhL._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Tap water filter",
+        "noOfBuyers": "5k",
+        "price": 600,
+        "category": "bathroom",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3K286Vl",
+        "images": [
+            "https://m.media-amazon.com/images/I/41w1HbZJBpL._AC_UY436_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/81RmyL+TpdL._AC_UY436_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Laundry soap roller",
+        "noOfBuyers": "1.3K",
+        "price": 600,
+        "category": "bathroom",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/4bhuMgi",
+        "images": [
+            "https://m.media-amazon.com/images/I/31Lw215mg8L._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/61vmyTwm0dL._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ear cleaner tool",
+        "noOfBuyers": "1.0K",
+        "price": 500,
+        "category": "health-tool",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3ynNrIU",
+        "images": [
+            "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16c52b02-c182-43cf-acf1-c7fa3ede9d82._CR0,0,1200,628_SX860_QL68_.jpg",
+            "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16c52b02-c182-43cf-acf1-c7fa3ede9d82._CR0,0,1200,628_SX860_QL68_.jpg",
+            "https://m.media-amazon.com/images/I/61M5PfLvLKL._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Star Projector Galaxy Projector with Remote",
+        "noOfBuyers": "1.3K",
+        "price": 600,
+        "category": "decoration",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3JZYp9J",
+        "images": [
+            "https://m.media-amazon.com/images/I/81d93FGEaJL._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/710heH2Z3wL._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Garlic Crusher",
+        "noOfBuyers": "800",
+        "price": 200,
+        "category": "kitchen",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/3wyqToa",
+        "images": [
+            "https://m.media-amazon.com/images/I/31dSYERHCPS._AC_UL640_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/61xXib5pLbL._AC_UL640_FMwebp_QL65_.jpg"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Oil Extraction machine",
+        "noOfBuyers": "1K",
+        "price": 20000,
+        "category": "home-maintainance",
+        "availability": "in-stock",
+        "plateform": "amazon",
+        "link": "https://amzn.to/4bf0vib",
+        "images": [
+            "https://m.media-amazon.com/images/I/714e+LSa3dL._AC_UY436_FMwebp_QL65_.jpg",
+            "https://m.media-amazon.com/images/I/71MgxnIcA4S._AC_UY436_FMwebp_QL65_.jpg"
+        ]
+    }
+]

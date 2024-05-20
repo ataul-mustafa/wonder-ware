@@ -1,0 +1,89 @@
+.bannerContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer > div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+    background-image: linear-gradient(to right, #0405439d, #ecf02234);
+    border-radius: 30px;
+}
+
+.bannerContainer > div > div{
+    width: 70%;
+    font-size: 50px;
+    font-weight: 500;
+    color: #2E0052;
+    padding: 60px 0 30px 40px;
+}
+
+.bannerContainer > div > div > button{
+    display: block;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #FFD700;
+        color: #2E0052;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        padding: 8px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+}
+
+.bannerContainer > div > img{
+    width: auto;
+    height: 390px;
+    position: relative;
+    bottom: 75px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .bannerContainer{
+        height: 20vh;
+        margin-top: 15px;
+    }
+    
+    .bannerContainer > div{
+        width: 90%;
+        height: 90%;
+        border-radius: 7px;
+
+    }
+    
+    .bannerContainer > div > div{
+        font-size: 18px;
+        color: #2E0052;
+        padding: 10% 0 20px 20px;
+    }
+
+    .bannerContainer > div > div > button{
+        display: block;
+        font-size: 9px;
+        font-weight: 400;
+        background-color: #2E0052;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        padding: 5px 20px;
+        margin-top: 10px;
+    }
+    
+    .bannerContainer > div > img{
+        width: auto;
+        height: 110%;
+        position: relative;
+        bottom: 10%;
+        z-index: 1;
+        /* left: 10px; */
+    }
+    
+    
+}

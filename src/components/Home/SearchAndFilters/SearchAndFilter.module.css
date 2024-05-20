@@ -1,0 +1,80 @@
+.filterWrapper{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5%;
+}
+
+.filters{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filters > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+select{
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+    height: fit-content;
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+    padding: 5px 0 5px 10px;
+    border-radius: 40px;
+}
+
+option{
+    background-color: #fff;
+}
+
+.filters > div > select{
+    background-color: #fff;
+    border: 3px solid #E1E1E1;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .filterWrapper{
+        width: 100vw;
+        border-bottom: 1.5px solid #BBBABA;
+    }
+    .filters{
+        width: auto;
+        overflow-x: scroll;
+        margin: 5%;
+    }
+
+    .filters > div{
+        width: 320px;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding: 0;
+        margin: 0;
+    }
+
+    .filters > div > div{
+        margin-left: 20px;
+    }
+
+
+    select{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 3px 5px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .filters > div > select{
+        border: 1px solid #E1E1E1;
+    }
+}

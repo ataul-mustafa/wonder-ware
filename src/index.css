@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+/* .homeContainer{
+    overflow-x: scroll;
+} */
+.noProduct {
+    height: 80vh;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    color: #0000003b;
+    padding: 10% 0;
+    text-transform: uppercase;
+}
+
+.image-gallery-slide{
+    max-width: 60vw;
+   /* width: 600px; */
+   /* height: 580px; */
+   max-height: 300px;
+   width: 100%;
+   height: auto;
+   padding: 30px;
+   /* border: 5px solid rgb(1, 1, 58); */
+   border-radius: 10px;
+   object-fit: contain;
+}
+
+.image-gallery-thumbnail{
+   margin: 20px;
+   width: 140px;
+   height: 140px;
+}
+
+
+
+
+
+.paginationBox{
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.page-item{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #02063c;
+    padding: 1vmax 1.5vmax;
+    border-collapse: collapse;
+    transition: all 0.3s;
+    cursor: pointer;
+    list-style: none;
+}
+
+.page-item:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+.page-item:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+.page-link{
+    text-decoration: none;
+    font: 400 1.2vmax "Roboto";
+    color: rgb(80, 80, 80);
+    transition: all 0.3s;
+}
+
+.page-item:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.page-item:hover .page-link {
+    color: rgb(80, 80, 80);
+}
+
+.pageItemActive{
+    background-image: linear-gradient(to left, #57B1FF, #02063c);
+}
+
+.pageLinkActive{
+    color: #fff;
+}
+
+  
+
+
+
+@media screen and (max-width: 700px) {
+
+    .paginationBox{
+        margin: 5vw 5vw 10vw 5vw;
+    }
+
+    .image-gallery-slide{
+        max-width: 90vw;
+       max-height: 90vw;
+       width: 100%;
+       height: auto;
+       padding: 30px;
+       border-radius: 10px;
+       object-fit: contain;
+    }
+
+   .image-gallery-thumbnail{
+       display: none;
+   }
+   
+   .image-gallery-bullets{
+       display: block;
+       position: relative;
+       top: 20px;
+   }
+
+   .image-gallery-bullets .image-gallery-bullet{
+       background-color: transparent; /* Change color of active bullet */
+       width: 12px;
+       height: 12px;
+       border-color: #2E0052;
+       box-shadow: none;
+       margin-right: 8px;
+   }
+
+   .image-gallery-bullets .image-gallery-bullet.active{
+       background-color: #2E0052;
+       border-color: #2E0052;
+   }
+
+   .footer{
+    display: none;
+   }
+
+}
+

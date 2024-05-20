@@ -1,0 +1,120 @@
+.productCardContainer{
+    width: 43%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgb(178, 167, 167);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.productCardContainer > .imageSlider{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #0066FF2B;
+    position: relative;
+} 
+
+.productCardContainer > .prices{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0 15px;
+    color: #9c9494fd;
+    margin: 10px 0;
+}
+
+.productCardContainer > .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.productCardContainer > .buttons > a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.productCardContainer > .buttons > a:nth-child(1){
+    background-color: #2E0052;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.productCardContainer > .buttons > a:nth-child(1):hover{
+    background-color: #1c0131;
+}
+
+.productCardContainer > .buttons > a:nth-child(2){
+    border-radius: 5px;
+    color: #090226;
+    border: 1px solid rgb(167, 157, 157);
+    transition: 0.3s ease;
+}
+
+.productCardContainer > .buttons > a:nth-child(2):hover{
+    background-color: #2E0052;
+    color: #fff;
+}
+
+
+.productCardContainer > h2{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.productCardContainer > h3{
+    font-size: 23px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+@media screen and (max-width: 680px) {
+    .productCardContainer{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .productCardContainer > .imageSlider{
+        height: 100vw;
+    }
+    
+    
+    .productCardContainer > .prices{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 22px;
+        font-weight: 400;
+        padding: 0 15px;
+        color: #9c9494fd;
+        margin: 10px 0;
+    }
+    
+    .productCardContainer > .buttons{
+        flex-direction: column;
+    }
+    
+    .productCardContainer > .buttons > a{
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+}
