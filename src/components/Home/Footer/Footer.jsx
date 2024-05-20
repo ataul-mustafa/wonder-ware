@@ -4,7 +4,7 @@ import Style from './Footer.module.css';
 const Footer = () => {
   return (
     <div className={Style.footerContainer}>
-        Musicart | All rights reserved
+        WonderWare | All rights reserved
     </div>
   )
 }
