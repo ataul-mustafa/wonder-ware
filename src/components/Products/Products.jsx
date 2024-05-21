@@ -30,6 +30,7 @@ const Products = () => {
       let indexOfLastItem = currentPage * 8;
       const indexOfFirstItem = indexOfLastItem - 8;
       const currentProducts = products.slice(indexOfFirstItem, indexOfLastItem);
+      console.log(currentProducts)
       setCurrentPrds(currentProducts);
     } else {
       setCurrentPrds(products);
@@ -37,7 +38,7 @@ const Products = () => {
   }, [currentPage, products]);
 
   useEffect(() => {
-    let filteredProducts = products;
+    let filteredProducts = currentPrds;
 
     if (filterData.search) {
       filteredProducts = filteredProducts.filter((product) =>
@@ -78,8 +79,9 @@ const Products = () => {
 
     if(filterData.search || filterData.price || filterData.sortBy){
       setCurrentPrds(filteredProducts);
+      console.log(currentPrds)
     } else{
-      setCurrentPage(currentPrds)
+      setCurrentPrds(currentPrds)
     }
 
   }, [filterData]);
