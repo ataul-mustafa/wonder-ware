@@ -27,7 +27,7 @@ const Header = ({filterData, setFilterData}) => {
             </div>
             <div className={Style.mobileHeaderWrapper}>
                 <div onClick={()=>{navigate('/products')}} className={Style.mobileHeader}>
-                    <input type="text" name='search' onChange={onSearchChange} placeholder='Search Musicart' />
+                    <input type="text" name='search' onChange={onSearchChange} placeholder='Search WonderWare' />
                     <FaSearch />
                 </div>
             </div>
