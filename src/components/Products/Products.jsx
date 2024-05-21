@@ -41,7 +41,7 @@ const Products = () => {
 
     if (filterData.search) {
       filteredProducts = filteredProducts.filter((product) =>
-        (product.name).toLowerCase().startsWith(filterData.search.toLowerCase())
+        (product.name).toLowerCase().includes(filterData.search.toLowerCase())
       );
     }
 
@@ -76,7 +76,12 @@ const Products = () => {
       filteredProducts = filteredProducts.sort(sortCriteria);
     }
 
-    setCurrentPrds(filteredProducts);
+    if(filterData.search || filterData.price || filterData.sortBy){
+      setCurrentPrds(filteredProducts);
+    } else{
+      setCurrentPage(currentPrds)
+    }
+
   }, [filterData]);
 
   return (
