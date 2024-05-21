@@ -79,8 +79,8 @@ const Products = () => {
     if(filterData.search || filterData.price || filterData.sortBy){
       setCurrentPrds(filteredProducts);
     }
-    
-  }, [filterData]);
+
+  }, [filterData.search, filterData.price, filterData.sortBy]);
 
   return (
     <>
